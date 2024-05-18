@@ -16,7 +16,7 @@
       }
     },
     "deploy": {
-      "command": "npx ampx pipeline-deploy",
+      "command": "npm install && npx ampx pipeline-deploy",
       "options": {
         "cwd": "packages/backend"
       }
