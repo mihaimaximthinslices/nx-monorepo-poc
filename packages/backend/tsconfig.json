@@ -11,12 +11,7 @@
     "moduleResolution": "bundler",
     "resolveJsonModule": true,
     "esModuleInterop": true,
-    "skipLibCheck": true,
-    "paths": {
-      "$amplify/*": [
-        "../.amplify/generated/*"
-      ]
-    }
+    "skipLibCheck": true
   },
   "files": [],
   "include": [],

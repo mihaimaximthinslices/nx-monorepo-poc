@@ -22,13 +22,13 @@ importers:
         specifier: ^1.0.3
         version: 1.0.3(@aws-sdk/client-sso-oidc@3.577.0)(@aws-sdk/client-sts@3.577.0)(@aws-sdk/types@3.577.0)(aws-cdk-lib@2.142.1(constructs@10.3.0))(aws-cdk@2.142.1)(constructs@10.3.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.4.5)
       aws-cdk:
-        specifier: ^2
+        specifier: ^2.142.1
         version: 2.142.1
       aws-cdk-lib:
-        specifier: ^2
+        specifier: ^2.142.1
         version: 2.142.1(constructs@10.3.0)
       constructs:
-        specifier: ^10.0.0
+        specifier: ^10.3.0
         version: 10.3.0
       esbuild:
         specifier: ^0.21.3
@@ -37,7 +37,7 @@ importers:
         specifier: ^4.10.5
         version: 4.10.5
       typescript:
-        specifier: ^5.0.0
+        specifier: ^5.4.5
         version: 5.4.5
 
 packages:
