@@ -15,5 +15,11 @@
         "assets": ["packages/backend/*.md"]
       }
     }
+  },
+  "deploy": {
+    "command": "amplify pipeline-deploy",
+    "options": {
+      "cwd": "packages/backend"
+    }
   }
 }
