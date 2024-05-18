@@ -14,12 +14,12 @@
         "tsConfig": "packages/backend/tsconfig.lib.json",
         "assets": ["packages/backend/*.md"]
       }
-    }
-  },
-  "deploy": {
-    "command": "amplify pipeline-deploy",
-    "options": {
-      "cwd": "packages/backend"
+    },
+    "deploy": {
+      "command": "amplify pipeline-deploy",
+      "options": {
+        "cwd": "packages/backend"
+      }
     }
   }
 }
