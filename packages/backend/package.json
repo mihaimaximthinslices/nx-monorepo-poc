@@ -2,6 +2,7 @@
   "name": "@amplify-monorepo/backend",
   "version": "0.0.1",
   "dependencies": {
+    "@aws-amplify/cli": "^12.12.0",
     "aws-amplify": "^6.3.2",
     "tslib": "^2.3.0"
   },
