@@ -16,7 +16,7 @@
       }
     },
     "deploy": {
-      "command": "amplify pipeline-deploy",
+      "command": "npx ampx pipeline-deploy",
       "options": {
         "cwd": "packages/backend"
       }
