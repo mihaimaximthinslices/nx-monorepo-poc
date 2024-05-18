@@ -11,8 +11,9 @@ frontend:
         build:
             commands:
                 - 'npx nx build web'
+                - 'pwd'
     artifacts:
-        baseDirectory: dist/apps/web/.next // the build output location of your app
+        baseDirectory: dist/apps/web
         files:
             - '**/*'
     cache:
