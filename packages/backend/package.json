@@ -1,0 +1,22 @@
+{
+  "name": "@amplify-monorepo/backend",
+  "version": "0.0.1",
+  "dependencies": {
+    "aws-amplify": "^6.3.2",
+    "tslib": "^2.3.0"
+  },
+  "type": "commonjs",
+  "main": "./src/index.js",
+  "typings": "./src/index.d.ts",
+  "private": true,
+  "devDependencies": {
+    "@aws-amplify/backend": "^1.0.2",
+    "@aws-amplify/backend-cli": "^1.0.3",
+    "aws-cdk": "^2",
+    "aws-cdk-lib": "^2",
+    "constructs": "^10.0.0",
+    "esbuild": "^0.21.3",
+    "tsx": "^4.10.5",
+    "typescript": "^5.0.0"
+  }
+}
