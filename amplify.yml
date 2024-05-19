@@ -20,7 +20,7 @@ applications:
             - 'cp ../../packages/backend/amplify_outputs.json ./'
             - 'npx nx custom-build blog-web-app'
       artifacts:
-        baseDirectory: dist/apps/blog-web-app
+        baseDirectory: ../../dist/apps/blog-web-app
         files:
           - '**/*'
       cache:
