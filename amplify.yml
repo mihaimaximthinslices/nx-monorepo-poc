@@ -11,7 +11,7 @@ frontend:
     phases:
         build:
             commands:
-                - 'npx nx build blog-web-app'
+                - 'npx nx custom-build blog-web-app'
     artifacts:
         baseDirectory: dist/apps/blog-web-app
         files:
