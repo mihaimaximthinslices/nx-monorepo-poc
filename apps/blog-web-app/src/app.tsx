@@ -12,6 +12,7 @@ export function App() {
       {({ signOut, user }) => (
         <div>
           <h1>This is blog-web-app website</h1>
+          <h1>This is definitely a blog</h1>
           <div>
             <h2>User Info</h2>
             <pre>{JSON.stringify(user, null, 2)}</pre>
