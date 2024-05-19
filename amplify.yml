@@ -16,6 +16,7 @@ frontend:
                 - 'ls apps/blog-web-app'
                 - 'ls packages'
                 - 'ls packages/backend'
+                - 'ls packages/backend/amplify'
                 - 'ls packages/backend/apps/blog-web-app'
                 - 'npx nx custom-build blog-web-app'
     artifacts:

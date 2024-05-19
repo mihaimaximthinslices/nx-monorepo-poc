@@ -16,7 +16,7 @@
       }
     },
     "deploy": {
-      "command": "pnpm install && npx ampx pipeline-deploy --outputs-out-dir apps/blog-web-app",
+      "command": "pnpm install && npx ampx pipeline-deploy --outputs-out-dir",
       "options": {
         "cwd": "packages/backend"
       }
