@@ -16,7 +16,13 @@
       }
     },
     "deploy": {
-      "command": "pnpm install && npx ampx pipeline-deploy",
+      "command": "pnpm install && npx ampx pipeline-deploy --branch $AWS_BRANCH --app-id $AWS_APP_ID",
+      "options": {
+        "cwd": "packages/backend"
+      }
+    },
+    "deploy-sales-app": {
+      "command": "pnpm install && npx ampx generate outputs --branch blog-app-deploy --app-id $AWS_APP_ID",
       "options": {
         "cwd": "packages/backend"
       }
