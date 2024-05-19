@@ -29,10 +29,9 @@ applications:
       phases:
         build:
           commands:
-            - 'nvm use 20'
             - 'npm install -g pnpm'
             - 'pnpm install'
-            - 'npx nx deploy backend --branch $AWS_BRANCH --app-id $AWS_APP_ID'
+            - 'npx nx generate-outputs backend --branch main --app-id d38vw91ck71nf1'
     frontend:
       phases:
         build:
@@ -55,10 +54,9 @@ applications:
       phases:
         build:
           commands:
-            - 'nvm use 20'
             - 'npm install -g pnpm'
             - 'pnpm install'
-            - 'npx nx deploy-sales-app backend --branch main --app-id dlwcwqnat9240'
+            - 'npx nx generate-outputs backend --branch main --app-id d38vw91ck71nf1'
     frontend:
       phases:
         build:

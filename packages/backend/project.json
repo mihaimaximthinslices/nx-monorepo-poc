@@ -21,7 +21,7 @@
         "cwd": "packages/backend"
       }
     },
-    "deploy-sales-app": {
+    "generate-outputs": {
       "command": "pnpm install && npx ampx generate outputs",
       "options": {
         "cwd": "packages/backend"
