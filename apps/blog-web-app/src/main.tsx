@@ -1,8 +1,8 @@
 import { StrictMode } from 'react';
 import * as ReactDOM from 'react-dom/client';
 import { App } from './app';
-import outputs from './amplify_outputs.json';
 import { Amplify } from 'aws-amplify';
+import outputs from '../amplify_outputs.json';
 
 Amplify.configure(outputs);
 

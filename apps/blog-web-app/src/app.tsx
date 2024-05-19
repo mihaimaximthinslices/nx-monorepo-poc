@@ -4,13 +4,8 @@ import '@aws-amplify/ui-react/styles.css';
 import { generateClient } from 'aws-amplify/data';
 import { Schema } from '@amplify-monorepo/backend';
 import { useEffect, useState } from 'react';
-import outputs from '../amplify_outputs.json';
-import { Amplify } from 'aws-amplify';
-
-Amplify.configure(outputs);
 
 const graphQLClient = generateClient<Schema>({ authMode: 'userPool' });
-console.log(graphQLClient.models.Todo);
 export function App() {
   return (
     <Authenticator className="mt-12 p-8">
