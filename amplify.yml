@@ -5,17 +5,16 @@ applications:
       phases:
         build:
           commands:
-            - 'nvm use 20'
             - 'npm install -g pnpm'
             - 'pnpm install'
-            - 'npx nx deploy backend --branch $AWS_BRANCH --app-id $AWS_APP_ID'
+            - 'npx ampx pipeline-deploy --branch $AWS_BRANCH --app-id $AWS_APP_ID'
     frontend:
       phases:
         build:
           commands:
             - 'pwd'
       artifacts:
-        baseDirectory: ../../dist/apps/blog-web-app
+        baseDirectory: ./index.html
         files:
           - '**/*'
       cache:
