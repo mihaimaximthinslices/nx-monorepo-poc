@@ -14,7 +14,7 @@ applications:
           commands:
             - 'pwd'
       artifacts:
-        baseDirectory: ./index.html
+        baseDirectory: fake-dist/index.html
         files:
           - '**/*'
       cache:
