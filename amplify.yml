@@ -17,6 +17,7 @@ frontend:
                 - 'ls packages'
                 - 'ls packages/backend'
                 - 'cp packages/backend/amplify_outputs.json apps/blog-web-app'
+                - 'ls apps/blog-web-app'
                 - 'npx nx custom-build blog-web-app'
     artifacts:
         baseDirectory: dist/apps/blog-web-app
