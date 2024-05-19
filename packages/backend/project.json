@@ -15,12 +15,6 @@
         "assets": ["packages/backend/*.md"]
       }
     },
-    "deploy": {
-      "command": "pnpm install && npx ampx pipeline-deploy",
-      "options": {
-        "cwd": "packages/backend"
-      }
-    },
     "generate-outputs": {
       "command": "pnpm install && npx ampx generate outputs",
       "options": {
