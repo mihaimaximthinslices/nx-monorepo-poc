@@ -15,6 +15,7 @@ export function App() {
             This is sales-web-app website, different from blog-web-app, you know
             :D
           </h1>
+          <h1>A lot of sales going round here</h1>
           <div>
             <h2>User Info</h2>
             <pre>{JSON.stringify(user, null, 2)}</pre>
