@@ -16,7 +16,13 @@
       }
     },
     "deploy": {
-      "command": "npm install && npx ampx pipeline-deploy",
+      "command": "pnpm install && npx ampx pipeline-deploy",
+      "options": {
+        "cwd": "packages/backend"
+      }
+    },
+    "sandbox": {
+      "command": "npx ampx sandbox --profile personal --outputs-out-dir ../../apps",
       "options": {
         "cwd": "packages/backend"
       }

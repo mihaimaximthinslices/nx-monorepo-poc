@@ -39,3 +39,8 @@ testem.log
 Thumbs.db
 
 .nx/cache
+
+# Amplify
+.amplify
+amplify_outputs*
+amplifyconfiguration*

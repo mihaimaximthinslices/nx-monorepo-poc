@@ -15,8 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@amplify-monorepo/backend": ["packages/backend/src/index.ts"],
-      "@amplify-monorepo/ui": ["shared/ui/src/index.ts"]
+      "@amplify-monorepo/backend": ["packages/backend/index.ts"],
+      "@amplify-monorepo/ui": ["packages/ui/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
