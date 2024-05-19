@@ -22,7 +22,7 @@
       }
     },
     "deploy-sales-app": {
-      "command": "pnpm install && npx ampx generate outputs --branch blog-app-deploy --app-id $AWS_APP_ID",
+      "command": "pnpm install && npx ampx generate outputs",
       "options": {
         "cwd": "packages/backend"
       }
