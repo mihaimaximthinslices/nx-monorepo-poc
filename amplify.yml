@@ -16,6 +16,9 @@ applications:
       phases:
         build:
           commands:
+            - 'ls -la'
+            - 'ls -la packages/backend'
+            - 'ls -la packages/backend/amplify'
             - 'cp packages/backend/amplify_outputs.json apps/blog-web-app'
             - 'npx nx custom-build blog-web-app'
       artifacts:
