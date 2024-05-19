@@ -13,6 +13,10 @@ frontend:
             commands:
                 - 'pwd'
                 - 'ls -la'
+                - 'ls apps/blog-web-app'
+                - 'ls packages'
+                - 'ls packages/backend'
+                - 'ls packages/backend/apps/blog-web-app'
                 - 'npx nx custom-build blog-web-app'
     artifacts:
         baseDirectory: dist/apps/blog-web-app
