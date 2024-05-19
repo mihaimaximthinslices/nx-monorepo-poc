@@ -16,7 +16,7 @@
       }
     },
     "deploy": {
-      "command": "pnpm install && npx ampx pipeline-deploy --outputs-out-dir",
+      "command": "pnpm install && npx ampx pipeline-deploy",
       "options": {
         "cwd": "packages/backend"
       }
